@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Isaac Militante">
+<meta name="description" content="Johnson's Park Contact Page">
+<title>Johnson's Park | Contact</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+    <h1><a href="index.html">Johnson's Park</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<img src="images/swiss-valley.jpg" alt="Swiss Valley" width="1440" height="560">
+<main class="body">
+    <div class="content-wrapper">
+        <div class="header">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns.</p>
+            <p>We are happy to help you plan your dream vacation with us!</p>
+        </div>
+        
+        <div class="image-and-form-wrapper">
+            <div class="image-wrapper">
+                <img src="images/swiss-peak.jpg" alt="Swiss Peak" width="350" height="455">
+            </div>
+            
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post" class="contact-form">
+                <label for="fullname">Full Name *</label>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+                
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                
+                <label for="contactmethod">Preferred Contact Method *</label>
+                <select id="contactmethod" name="contactmethod" required>
+                    <option value="" disabled selected>Select Contact Method</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+                
+                <label for="comments">Comments *</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>Copyright &copy; 2024 - Johnson's Park</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+</body>
+</html>
